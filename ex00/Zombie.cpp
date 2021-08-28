@@ -1,5 +1,6 @@
 #include "Zombie.hpp"
 
+
 void Zombie::announce(void)
 {
     cout << m_name << " BraiiiiiiinnnzzzZ..." << endl;
@@ -15,3 +16,5 @@ Zombie::~Zombie()
 {
     cout << "Zombie "<< m_name << " has died" << endl;
 }
+
+Zombie::Zombie() {}

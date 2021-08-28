@@ -6,7 +6,9 @@ using std::endl;
 
 class Zombie {
 private:
-    string m_name;
+	Zombie();
+
+	string m_name;
 
 public:
     void announce( void );
