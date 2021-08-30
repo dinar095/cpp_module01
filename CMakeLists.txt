@@ -7,3 +7,4 @@ add_executable(ex00 ex00/Zombie.cpp ex00/newZombie.cpp ex00/randomChump.cpp ex00
 add_executable(ex01 ex01/Zombie.cpp ex01/newZombie.cpp ex01/randomChump.cpp ex01/main.cpp)
 add_executable(ex02 ex02/main.cpp)
 add_executable(ex03 ${EX03})
+add_executable(ex04 ex04/main.cpp)

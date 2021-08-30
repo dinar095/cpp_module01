@@ -1,6 +1,6 @@
-NAME = zombie
-HEADER = Zombie.hpp
-FUNCTIONS = main newZombie randomChump Zombie
+NAME = war
+HEADER = Weapon.hpp HumanA.hpp HumanB.hpp
+FUNCTIONS = main HumanA HumanB Weapon
 
 CC = clang++
 CFLAGS = -Wall -Wextra -Werror
