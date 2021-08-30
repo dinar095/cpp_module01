@@ -2,7 +2,7 @@
 
 void HumanB::attack()
 {
-	cout << m_name <<  "attacks with his" << m_weapon->getType() << endl;
+	cout << m_name <<  " attacks with his" << m_weapon->getType() << endl;
 }
 
 HumanB::HumanB(string name)

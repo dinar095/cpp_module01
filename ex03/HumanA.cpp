@@ -2,7 +2,7 @@
 
 void HumanA::attack()
 {
-	cout << m_name <<  "attacks with his" << m_weapon.getType() << endl;
+	cout << m_name <<  " attacks with his" << m_weapon.getType() << endl;
 }
 
 HumanA::HumanA(string name, Weapon &weapon) : m_weapon(weapon)
