@@ -15,15 +15,15 @@ int main(int ac, char **av)
 	}
 	string	s1 = av[2];
 	string	s2 = av[3];
-	string	filename = av[1];
+	string filename = av[1];
 	string	line;
-	std::ifstream inf(filename);
+	std::ifstream inf(av[1]);
 	if (!inf)
 	{
 		cout << "Error file" << endl;
 		return 1;
 	}
-	std::ofstream outf(filename + ".replace", std::ofstream::trunc);
+	std::ofstream outf(filename.append(".replace").c_str(), std::ofstream::trunc);
 	if (!outf)
 	{
 		cout << "Error output file" << endl;
