@@ -14,7 +14,3 @@ HumanA::~HumanA()
 {
 	cout << m_name << "has died" << endl;
 }
-
-
-
-

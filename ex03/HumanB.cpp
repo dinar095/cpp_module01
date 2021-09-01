@@ -1,8 +1,12 @@
 #include "HumanB.hpp"
+#include "Weapon.hpp"
 
 void HumanB::attack()
 {
-	cout << m_name <<  " attacks with his" << m_weapon->getType() << endl;
+	if (!(m_weapon))
+		cout << m_name << " Give peace" << endl;
+	else
+		cout << m_name <<  " attacks with his" << m_weapon->getType() << endl;
 }
 
 HumanB::HumanB(string name)
@@ -18,4 +22,9 @@ HumanB::~HumanB()
 void HumanB::setWeapon(Weapon &weapon)
 {
 	m_weapon = &weapon;
+}
+
+void HumanB::getWeapon()
+{
+	cout << "wewe" << m_weapon->getType() << endl;
 }

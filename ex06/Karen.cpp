@@ -38,19 +38,16 @@ void Karen::complain(std::string level) {
 		{
 			cout << "[ DEBUG ]" << endl;
 			(this->*(fcnPtr[0]))();
-			break;
 		}
 		case 1:
 		{
 			cout << "[ INFO ]" << endl;
 			(this->*(fcnPtr[1]))();
-			break;
 		}
 		case 2:
 		{
 			cout << "[ WARNING ]" << endl;
 			(this->*(fcnPtr[2]))();
-			break;
 		}
 		case 3:
 		{

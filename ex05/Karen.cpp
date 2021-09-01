@@ -42,4 +42,3 @@ Karen::Karen() {
 Karen::~Karen() {
 	return;
 }
-
