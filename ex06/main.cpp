@@ -1,12 +1,14 @@
 #include "Karen.hpp"
 
 
-int main(void)
+int main(int ac, char **av)
 {
 	Karen gg;
-	gg.complain("DEBUG");
-	gg.complain("INFO");
-	gg.complain("WARNING");
-	gg.complain("ERROR");
+	if (ac != 2)
+	{
+		std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;
+		return 0;
+	}
+	gg.complain(av[1]);
 	return 0;
 }

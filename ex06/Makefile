@@ -1,4 +1,4 @@
-NAME = karen
+NAME = karenFilter
 HEADER = Karen.hpp
 FUNCTIONS = main Karen
 
